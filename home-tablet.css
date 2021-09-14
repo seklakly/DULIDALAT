@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+
+
+.container1 {
+    width: 100%;
+    height: auto;
+    background-color: mistyrose;   
+}
+
+a {
+    text-decoration: none;
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px royalblue;
+    text-align: center;
+    font-size: 100%;
+}
+.nav-link:hover {
+    color:gold !important;
+    background-color:lightcoral;
+    border-radius: 10%;
+}
+
+a#navbarDropdown + .dropdown-menu {
+    background-color: mistyrose; 
+}
+
+a#navbarDropdown + .dropdown-menu .dropdown-item{
+    color: red;
+}
+
+.container2  {
+    position: relative;
+    background-size: 100% 100%;
+    width: auto;
+    height: 300px;
+    background-image: url("bannerdalat.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.text-banner {
+    position: absolute;
+    top: -3%;
+    left: 9%;
+    
+  }
+  
+.text-banner h1 {
+    color: white;
+    margin: 20% 20% 15% 20%;
+    font-family: 'Sofia'; 
+    font-size: 70px;
+  }
+  
+.text-banner p {
+    color: white;
+    margin: 0px;
+    font-family: 'Sofia';
+    font-size: 20px;
+  }
+
+  .container3  {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    background-color: lavenderblush;
+    padding: 7% 7% 7% 7%;
+    text-align: justify; 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 7%;
+}
+
+.col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10%;
+    
+
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10%;
+    margin-left: 7%;
+}
+
+.text {
+    padding-top: 20%;
+    padding-right: 15%;
+    height: 90%;
+    font-family: 'Sofia';
+    color:navy;
+    margin-bottom: 5%;
+    margin-top: -10%;
+    
+}
+
+footer {
+    background-image: url("footer.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    width: 100%;
+    height: 320px;
+}
+
+.background-footer {
+    background: rgba(0, 0, 0, 0.5);
+}
+.text-footer {
+    text-align: center ;
+    padding-top: 3%;
+    font-family: 'Charmonman';
+    color:mintcream;
+}
+
+.text-footer h2 {
+    padding-bottom: 1%;
+    
+   
+}
+
+.container4  {
+    width: 100%;
+    object-fit: cover;
+    text-align: justify; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    margin: 2% 7% 3% 10%;
+
+}
+
+.col-footer {
+    width: 50%;
+    padding-bottom: 3%;
+    
+    margin-top: 1%;
+    color:mintcream;
+    font-size: 25px;
+    height: 100px;
+
+}
+
+.col-footer p{
+    font-size: 20px;
+}
+.form-field {
+    width: 100%;
+    padding-top: 2%;
+    margin-right: 0px;
+    font-size: 15px;
+    height: 15px;
+    
+ }
+
+ .form-field input {
+    
+    width: 100%;
+    
+    font-size: 20px;
+    height: 20px;
+    
+ }
+
+.form-field::placeholder {
+    color: white; 
+
+ }
+
+
+.social a{
+    color: white; 
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 0;
+
+    
+ }
+
+ footer a:hover{
+    color: bisque; 
+    text-shadow: none;
+    text-decoration: none;
+    
+    
+ }
+ .social {
+    margin-top: 20px;
+
+ }
+
+ form button {
+    font-size: 15px;
+    padding-top: -12px;
+}
+
+.social::placeholder {
+    color: white;
+   
+
+ }
